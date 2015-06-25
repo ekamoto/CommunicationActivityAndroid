@@ -19,8 +19,6 @@ public class HisamotoActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.main);
-
         LinearLayout layout = new LinearLayout(this);
 
         /** Rotina para chamar uma activity para buscar um conteúdo **/
